@@ -1,15 +1,19 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-img
-        contain
-        height="300"
-        src="@/assets/logo.svg"
-      />
+      <v-img contain height="300" src="@/assets/logo.svg" />
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">Vuetify</h1>
+      <h1 class="text-h2 font-weight-bold pb-8">Vuetify</h1>
+
+      <v-btn color="primary" class="mb-8">Botão Vuetify</v-btn>
+      <br />
+      <button class='tw-bg-purple-700 tw-p-4 tw-rounded-lg tw-text-white tw-mb-4 hover:tw-bg-purple-800'>Botão Tailwind CSS</button>
+
+      <h1 className="tw-text-3xl tw-font-bold tw-underline tw-text-red-600">
+        Hello world!
+      </h1>
 
       <div class="py-14" />
 
@@ -22,11 +26,7 @@
             target="_blank"
             variant="text"
           >
-            <v-icon
-              icon="mdi-view-dashboard"
-              size="large"
-              start
-            />
+            <v-icon icon="mdi-view-dashboard" size="large" start />
 
             Components
           </v-btn>
@@ -42,11 +42,7 @@
             target="_blank"
             variant="flat"
           >
-            <v-icon
-              icon="mdi-speedometer"
-              size="large"
-              start
-            />
+            <v-icon icon="mdi-speedometer" size="large" start />
 
             Get Started
           </v-btn>
@@ -60,11 +56,7 @@
             target="_blank"
             variant="text"
           >
-            <v-icon
-              icon="mdi-account-group"
-              size="large"
-              start
-            />
+            <v-icon icon="mdi-account-group" size="large" start />
 
             Community
           </v-btn>
@@ -75,5 +67,5 @@
 </template>
 
 <script setup lang="ts">
-  //
+//
 </script>
